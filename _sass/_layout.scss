@@ -188,7 +188,15 @@
     font-size: 24px;
 }
 
-
+.post-category {
+    font-size: $small-font-size;
+    color: #7B843F;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #EF2;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 3px 0px 3px;
+}
 
 /**
  * Posts
