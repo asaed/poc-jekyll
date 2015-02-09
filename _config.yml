@@ -9,7 +9,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: akremsaed
 github_username:  asaed
 timezone: America/Chicago
+
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
 encoding: utf-8
+permalink: /:year/:month/:day/:title.html
