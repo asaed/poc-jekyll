@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This a sample website built with Jekyll. Of course, I need to add some random stuff 
   here. Before you ask, no I won't use Ipsum Lorem non sense because writing random 
   stuff is not that hard. And just like this, it's done. 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/poc-jekyll" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: akremsaed
 github_username:  asaed
