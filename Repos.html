@@ -1,0 +1,31 @@
+---
+layout: page
+title: Github Repositories
+permalink: /repos/
+---
+
+Go ahead and check the other repositories available on Github. 
+{% assign gh = "https://github.com/" %}
+<h3>Personal Repositories</h3>
+<ul>
+	{% for repo in site.data.repos %}
+	<li>
+		<a href="{{gh}}{{repo.url}}">{{repo.desc}}</a>
+	</li>
+	{% endfor %}
+</ul>
+
+<h3>Open-Source Repositories</h3>
+<ul>
+	{% for org_hash in site.data.orgs %}
+	{% assign org = org_hash[1] %}
+	<h4><a href="{{gh}}{{org.github_name}}">{{ org.name }}</a></h4>
+	<ul>
+		{% for repo in org.repos %}
+		<li>
+			<a href="{{gh}}{{org.github_name}}/{{repo.github_name}}">{{repo.name}}</a>
+		</li>
+		{% endfor %}
+	</ul>
+	{% endfor %}
+</ul>

@@ -1,0 +1,7 @@
+name: Source Allies, Inc. 
+github_name: sourceallies
+repos:
+ - name: Beanoh
+   github_name: beanoh
+ - name: Beanoh.NET
+   github_name: beanoh.net
